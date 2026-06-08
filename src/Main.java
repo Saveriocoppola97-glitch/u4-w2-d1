@@ -27,9 +27,9 @@ public class Main {
                 System.out.println("Nuovo array:");
                 UtilsNumbers.printArray(exerciseNumbers.getNumbers());
             } catch (ArrayIndexOutOfBoundsException e) {
-                System.out.println("Errore della posizione non valida!");
+                System.out.println("Errore della posizione non valida");
             } catch (InputMismatchException e) {
-                System.out.println("Errore: devi inserire un numero intero!");
+                System.out.println("Errore devi inserire un numero intero");
                 scanner.nextLine();
             }
         } while (true);

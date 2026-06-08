@@ -3,7 +3,6 @@ package utils;
 import java.util.Random;
 
 public class UtilsNumbers {
-
     public static int[] generateRandomArray() {
 
         Random random = new Random();
