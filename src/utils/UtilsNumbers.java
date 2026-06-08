@@ -1,10 +1,8 @@
 package utils;
-
 import java.util.Random;
 
 public class UtilsNumbers {
     public static int[] generateRandomArray() {
-
         Random random = new Random();
         int[] array = new int[5];
 
@@ -14,13 +12,11 @@ public class UtilsNumbers {
         return array;
     }
     public static void printArray(int[] array) {
-
         System.out.print("[ ");
 
         for (int number : array) {
             System.out.print(number + " ");
         }
-
         System.out.println("]");
     }
 }
